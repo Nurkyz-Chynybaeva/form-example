@@ -1,10 +1,8 @@
 import { useState } from "react";
-
 function App() {
-  function formSubmitCallback(event) {
+  function formSubmitCallback(event){
     const data = {
-      firstName: event.target.form[0].value,
-      // ...
+      firstName : event.target.form[0].value,
     }
     event.preventDefault();
   }
